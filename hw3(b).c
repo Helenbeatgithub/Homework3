@@ -67,13 +67,8 @@ int main() {
     printf("The target:\n");
     printf("%d\n", target);
 
-    bubbleSort(array, size);
-    
-    printf("The sorted array:\n");
-    printArray(array, size);
-    
     int result = binarySearch(array, 0, size - 1, target);
-    
+
     printf("Search result:\n");
     printf("%d\n", result);
     
@@ -81,4 +76,5 @@ int main() {
     
     return 0;
 }
+
 
